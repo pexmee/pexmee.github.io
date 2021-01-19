@@ -1,0 +1,102 @@
+/*Global styles*/
+body {
+    margin: 0
+    /* background */
+    /* font-family */
+    /* font-weight */
+}
+
+nav {
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 20px 0px;
+    position: relative;
+    
+}
+
+nav ul li a {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+
+
+header {
+    background: rgb(48, 255, 203);
+}
+
+/* Classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navbox {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.navbox:hover {
+    color: black;
+    transition: all ease-in-out 50ms;
+
+}
+
+
+.navbox:before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(107, 107, 107);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all ease-in-out 250ms;
+
+}
+
+.navbox:hover::before {
+    width: 100%;
+}
+
+.navbox:after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(107, 107, 107);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease-in-out 250ms;
+}
+
+.navbox:hover::after {
+    width: 100%;
+}
