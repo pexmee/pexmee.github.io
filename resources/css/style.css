@@ -8,7 +8,7 @@
 body {
     margin: 0;
     background: rgb(107, 107, 107);
-    font-family: "Century Gothic", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
     /* font-weight */
 }
 
@@ -39,7 +39,7 @@ nav ul li a {
     color: rgb(107, 107, 107);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav a:hover {
