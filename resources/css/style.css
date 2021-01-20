@@ -1,4 +1,10 @@
 /*Global styles*/
+/* A reset */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     background: rgb(107, 107, 107);
@@ -43,7 +49,7 @@ nav a:hover {
 
 
 header {
-    background: rgb(32, 230, 65);
+    background: rgb(92, 255, 119);
 }
 
 /* Classes */
