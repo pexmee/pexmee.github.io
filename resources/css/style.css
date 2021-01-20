@@ -1,10 +1,11 @@
 /*Global styles*/
 body {
-    margin: 0
-    /* background */
-    /* font-family */
+    margin: 0;
+    background: rgb(107, 107, 107);
+    font-family: "Century Gothic", sans-serif;
     /* font-weight */
 }
+
 
 nav {
     float: right;
@@ -22,14 +23,17 @@ nav li {
     margin-left: 70px;
     padding: 20px 0px;
     position: relative;
+    top: 0;
+    left: 0;
     
 }
 
 nav ul li a {
+    padding: 5px;
     color: rgb(107, 107, 107);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -39,13 +43,19 @@ nav a:hover {
 
 
 header {
-    background: rgb(48, 255, 203);
+    background: rgb(32, 230, 65);
 }
 
 /* Classes */
 .container {
     width: 80%;
     margin: 0 auto;
+}
+.myname {
+    font-size: 30px;
+    float: left;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 .clearfix::after {
@@ -55,8 +65,8 @@ header {
 }
 
 .navbox {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 
