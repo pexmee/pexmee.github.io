@@ -35,7 +35,7 @@ nav li {
 }
 
 nav ul li a {
-    padding: 15px 0px;
+    padding: 20px 0px;
     color: rgb(107, 107, 107);
     text-decoration: none;
     text-transform: uppercase;
@@ -71,8 +71,7 @@ header {
 }
 
 .navbox {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 20px 0;
 }
 
 
