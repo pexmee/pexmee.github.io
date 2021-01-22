@@ -35,7 +35,7 @@ nav li {
 }
 
 nav ul li a {
-    padding: 5px;
+    padding: 15px 0px;
     color: rgb(107, 107, 107);
     text-decoration: none;
     text-transform: uppercase;
@@ -83,7 +83,7 @@ header {
 
 }
 
-
+/* 
 .navbox:before {
     content: '';
     display: block;
@@ -99,7 +99,7 @@ header {
 
 .navbox:hover::before {
     width: 100%;
-}
+} */
 
 .navbox:after {
     content: '';
