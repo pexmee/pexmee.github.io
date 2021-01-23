@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter Yliniemi</title>
-    <link href="resources/css/style.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter Yliniemi</title>
+  <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  
 </head>
 <body>
-    <header class="clearfix" class="headerBorder">
-      
-        <div class="container">
-            <a class="myname">Peter Yliniemi</a>
-            <nav>
-                
-                <ul>
-                    <li class="navbox"><a href="#">Home</a></li>
-                    <li class="navbox"><a href="pages/links.html">Links</a></li>
-                    <li class="navbox"><a href="pages/about_me.html">About me</a></li>
-                    <li class="navbox"><a href="pages/experience.html">Experience</a></li>
-                    <li class="navbox"><a href="pages/education.html">Education</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header class="clearfix" class="headerBorder">  
+    <div class="container">
+      <a class="myname">Peter Yliniemi</a>
+        <nav>
+          <ul id='navID'> 
+            <li class="navbox"><a id="index">Home</a></li> 
+            <li class="navbox"><a id="links">Links</a></li>
+            <li class="navbox"><a id="aboutMe">About me</a></li>
+            <li class="navbox"><a id="experience">Experience</a></li>
+            <li class="navbox"><a id="education">Education</a></li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+  <main id="mainParent">
+    <div id="indexContainer">
+      <div id="indexContent">
+        <p>Index content goes here</p>
+      </div>
+    </div>
+    <div id="linksContainer">
+      <div id="linksContent">
+        <p>Links content goes here</p>
+      </div>
+    </div>
+    <div id="aboutMeContainer">
+      <div id="aboutMeContent">
+        <p>About me content goes here</p>
+      </div>
+    </div>
+    <div id="experienceContainer">
+      <div id="experienceContent">
+        <p>Experience content goes here</p>
+      </div>
+    </div>
+    <div id="educationContainer">
+      <div id="educationContent">
+        <p>Education content goes here</p>
+      </div>
+    </div>
+  </main>
+  <script src="resources/js/change_content.js"></script>
 </body>
 </html>

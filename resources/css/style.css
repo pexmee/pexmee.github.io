@@ -66,15 +66,22 @@ header {
   margin-top: 5px;
   padding: 5px;
 }
-
 .clearfix::after {
   content: '';
   display: table;
   clear: both;
 }
+#linksContent, #aboutMeContent, #experienceContent,
+#educationContent {
+  display: none;
+}
+
+
+
 
 .navbox {
   padding: 20px 0;
+  cursor: pointer;
 }
 
 
@@ -83,24 +90,6 @@ header {
   color: black;
   transition: all ease-in-out 50ms;
 }
-
-/* 
-.navbox:before {
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0%;
-    background-color: rgb(107, 107, 107);
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: all ease-in-out 250ms;
-
-}
-
-.navbox:hover::before {
-    width: 100%;
-} */
 
 .navbox:after {
   content: '';
